@@ -232,7 +232,7 @@ def write_csv(csv_rows, file_name=None):
     file_name = file_name if file_name is not None else 'export-saved.csv'
 
     # csv setting
-    csv_fields = ['URL', 'Title', 'Created', 'Selection', 'Folder']
+    csv_fields = ['URL', 'Title', 'Unixtime', 'Selection', 'Subreddit']
     delimiter = ','
 
     # write csv using csv module
